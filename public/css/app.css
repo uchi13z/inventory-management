@@ -1,0 +1,62 @@
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f8ff; /* ポップな色合いの背景色 */
+}
+.mokuteki-container {
+    width: 100%; /* 幅を100%に設定して中央揃え */
+    text-align: center;
+    background-color: #f0f8ff; /* ポップな色合いの背景色 */
+}
+.mokuteki {
+    font-size: 20px;
+    color: #333; /* Adjust color as necessary */
+    background-color: #f0f8ff; /* ポップな色合いの背景色 */
+}
+
+/* コンテナを画面全体に広げ、中央揃えにする */
+#container {
+    width: 100%;
+    margin: 0;
+/*    display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff; /* ポップな色合いの背景色 */
+}
+
+/* テーブルのスタイリング */
+.table {
+    width: 100%;
+    border-collapse: collapse; /* 罫線の重複を避ける */
+}
+
+th, td {
+    border: 2px solid #007bff; /* 罫線を追加 */
+    text-align: center;
+    padding: 8px;
+}
+
+/* テーブルヘッダーの色 */
+thead th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* ボタンのスタイル */
+.btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none; /* リンクの下線を消す */
+}
+
+.btn-primary { background-color: #4CAF50; }
+.btn-info { background-color: #2196F3; }
+.btn-warning { background-color: #ff9800; }
+.btn-danger { background-color: #f44336; }
